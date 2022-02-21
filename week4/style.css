@@ -18,10 +18,20 @@ body, html {
     font-size: 20px;
 }
 .topnav-centered {
-   
+    position: fixed;
+    top: 0;
+    left: 0;
     color: blueviolet;
     text-align: center;
     font-size: 27px;
+    border: 1px solid blue;
+    width: 100%;
+    background-color: #cdedfd;
+}
+.topnav-centered a,
+.topnav-centered a:visited{
+    color: blueviolet;
+    margin: 15px;
 }
 
 .container {
