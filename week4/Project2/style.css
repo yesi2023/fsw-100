@@ -1,0 +1,163 @@
+body{
+  font-family: 'Oswald', sans-serif;
+}
+.topnav-centered {
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: black;
+  text-align: right;
+  font-size: 17px;
+  border: 1px solid grey;
+  width: 100%;
+  background-color: gray;
+}
+.topnav-centered a,
+.topnav-centered a:visited{
+  color: lightcoral;
+  margin: 20px;
+}
+
+
+  h5{
+    margin-top: 1px;
+    color: gainsboro;
+    margin: 7px 12px;
+    position: relative;
+    left: -18%;
+    font-family: barlow condensed,sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    
+  }
+  
+  .subbox{
+    border: 5px solid transparent;
+    padding: 1px;
+    background-color: whitesmoke;
+    height: 45px;
+    position: relative;
+    text-align: center;
+  
+  }
+
+  #storename {
+    color: gray
+  
+  }
+
+  font{
+    color: red;
+  }
+  
+  
+  .cover img{
+    height:100vh;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    width:100%;
+
+  }
+
+  .text{
+    position: absolute;
+    top: 30%;
+    left: 7%;
+  }
+
+  #discount{
+    color:dimgrey;
+  }
+
+  h1{
+    font-size: 75px;
+    font-family: barlow condensed,sans-serif;
+    text-transform: capitalize; 
+    width: 460px;
+    word-spacing: 0px;
+    font-weight: normal;
+    line-height: 72px;
+}
+
+h2{
+  position: relative;
+  left: -48.2%;
+  text-transform: uppercase;
+  font-family: barlow condensed,sans-serif;
+  margin-top:4px;
+  font-weight:bolder;
+}
+
+h4{
+  position: absolute;
+    top:-4%;
+    font-size: 20px;
+    font-family: barlow condensed,sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+form input[type="submit"]{
+  position: absolute;
+  top: 86%;
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: crimson;
+  border:none;
+  color:white;
+  font-family: barlow condensed,sans-serif;
+  letter-spacing: 1px;
+}
+
+form input[type="submit"]:hover{
+  background-color: red;
+}
+
+p{
+  background-color:black;
+  border: 25px solid black;
+  font-size: 15px;
+  color:grey;
+  height:9px;
+  
+}
+
+  span{
+  color:red;
+}  
+
+a:hover{
+  border-bottom: 4px solid red;
+}
+
+ol li{
+  float:left;
+  width: 95px;
+  position: relative;
+  left: 25%;
+  List-style-type: none;
+  font-size: 18px;
+  
+}
+  
+
+ol li a{
+  text-decoration: underline;
+  color:lightcoral;
+  font-family: cursive
+}
+
+
+
+
+
+
+
+  
+ 
+
